@@ -1,19 +1,26 @@
 <script setup>
-import ToDoHeader from "./components/ToDoHeader.vue";
-import ToDoList from "./components/ToDoList.vue";
+import LibrairieHeader from "./components/LibrairieHeader.vue";
+import LibrairieList from "./components/Librairie.vue";
 
 
 </script>
 
 <template>
   <body>
-  <ToDoHeader />
-  <ToDoList />
+    <div class="img">
+  <LibrairieHeader />
+  <LibrairieList />
+</div>
 </body>
 </template>
 
 <style scoped >
 body{
   margin: 0px;
+}
+
+
+.img{
+  background-image:   url('components/livres.jpg'); 
 }
 </style>
